@@ -41,7 +41,7 @@ const Slider = () => {
           fill
           className="object-cover"
         />
-        <div className=" flex gap-8 font-bold absolute h-full bg-gradient-to-t from-black to-black/30 w-full bottom-0">
+        <div className=" flex gap-8 font-bold absolute h-full bg-gradient-to-t from-black to-transparent w-full bottom-0">
           <h1 className="flex justify-center items-center uppercase p-4 font-bold md:p-10 md:text-6xl lg:text-7xl absolute bottom-2 left-0">
             {data[currentSlide].title}
           </h1>
