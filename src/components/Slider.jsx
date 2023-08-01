@@ -33,7 +33,7 @@ const Slider = () => {
   }, []);
 
   return (
-    <div className="flex flex-col h-[calc(50vh-60px)] md:h-[calc(100vh-60px)]">
+    <div className="flex flex-col justify-center items-center h-[calc(50vh-60px)] md:h-50vh md:w-full md:flex md:justify-center md:items-center">
       <div className="w-full flex-1 relative">
         <Image
           src={data[currentSlide].image}

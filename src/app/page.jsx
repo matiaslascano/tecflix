@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center h-[calc(100vh-60px)]">
+    <main className="flex flex-col items-center justify-center h-[calc(100vh-76px)] md:h-[calc(100vh-76px)]">
       <h1 className="flex items-center justify-center font-bold text-5xl">
         Tec<span className="text-red-600 font-bold">FLIX</span>
       </h1>
